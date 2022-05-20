@@ -37,13 +37,13 @@ const app = new Vue({
             } else {
                 this.currentIndex--;
             }
-        
-        nextImg() 
+        },
+        nextImg() {
             if(this.currentIndex === this.images.length -1) {
                 this.currentIndex = 0;
             } else {
                 this.currentIndex++; 
             }
-        }
+        },
     },
 });
